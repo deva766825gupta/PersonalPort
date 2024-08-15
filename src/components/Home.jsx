@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/mee.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -23,7 +23,7 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
+            <span className="text-xl">Welcome!!!</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
@@ -37,11 +37,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            Welcome to my portfolio! I'm Devansh Gupta,Final-year Electrical Engineering student with expertise in Data Structures and Algorithms (DSA) and a strong focus on problem-solving. Passionate about applying theoretical knowledge to practical challenges and developing efficient, innovative solutions.
             </p>
             <br />
             {/* social media icons */}
@@ -49,25 +45,14 @@ function Home() {
               <div className="  space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
+                  
                   <li>
                     <a href="https://www.linkedin.com/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
-                    </a>
+                    <a target="_blank" href="https://drive.google.com/file/d/11cw4BaaqN5BpoO4aS51vwkaJbCDoKM9v/view?usp=drive_link">MY RESUME</a>
                   </li>
                 </ul>
               </div>
